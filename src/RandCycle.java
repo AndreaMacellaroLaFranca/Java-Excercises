@@ -49,9 +49,3 @@ public class RandCycle {
         scanner.close();
     }
 }
-
-//Fare in modo che l ultima volta se non indovino mi stampa hai perso------------
-//se indovino mi stampa complimenti hai indovinato in n tentativi----------------
-//se indovino in 2 tentativi mi dice complimenti che culo ----------------------
-//se indovino nel 3 o 4  ci hai impiegato un po pero bravo --------------------
-//se indovino nel 5 ti e andata di lusso hai indovinato all ultimo momento----------------
