@@ -59,7 +59,7 @@ public class CollegeTaxes {
         }
 
         if (scolarship-tasse>0){
-            System.out.println("Grazie alla tua borsa di studio otterrai un rimborso di: $"+(scolarship-tasse));
+            System.out.println("Grazie alla tua borsa di studio otterrai un rimborso di: $"+(scolarship-tasse)+".");
         } else {
             System.out.println("Grazie alla tua borsa di studio hai risparmiato $"+scolarship+". Dovrai pagare: $"+(tasse-scolarship)+".");
         }
