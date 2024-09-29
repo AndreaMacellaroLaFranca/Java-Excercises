@@ -1,4 +1,3 @@
-import java.util.Currency;
 import java.util.Scanner;
 
 public class CollegeTaxes {
