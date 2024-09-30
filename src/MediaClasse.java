@@ -17,9 +17,11 @@ public class MediaClasse {
             sommaVoti+=grade;
         }
 
-        double media = (double)sommaVoti/(double)nStudenti;
+        float media = (float)sommaVoti/(float)nStudenti;
 
         System.out.println("La media della classe e': "+ media);
+
+        sc.close();
 
     }
 }
