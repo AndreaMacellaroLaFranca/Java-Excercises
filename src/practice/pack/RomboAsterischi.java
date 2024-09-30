@@ -1,3 +1,5 @@
+package practice.pack;
+
 public class RomboAsterischi {
     public static void main(String[] args) {
         int n = 5; // Altezza del rombo
