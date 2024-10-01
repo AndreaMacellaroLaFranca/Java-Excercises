@@ -7,7 +7,7 @@ public class MethodsCalculator {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Scegli il tipo di operazione: somma, sottrazione, moltiplicazione o divizione: ");
+        System.out.print("Scegli il tipo di operazione: somma, sottrazione, moltiplicazione o divisione: ");
         String operazione = sc.nextLine();
 
         if (operazione.equals("somma")){
@@ -48,6 +48,11 @@ public class MethodsCalculator {
             System.out.print("Inserire secondo numero da dividere: ");
             int b = sc.nextInt();
 
+            if (b==0){
+                System.out.println("IMPOSSIBILE DIVIDERE PER ZERO");
+                return;
+            }
+
             System.out.print("Il risultato della divisione e': " + divisione(a,b));
         }
 
@@ -75,5 +80,9 @@ public class MethodsCalculator {
         float res = a/b;
         return res;
     }
+
+
+
+
 
 }
