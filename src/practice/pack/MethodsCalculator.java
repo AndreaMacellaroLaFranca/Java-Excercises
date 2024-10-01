@@ -18,7 +18,8 @@ public class MethodsCalculator {
             System.out.print("Inserire secondo numero da sommare: ");
             int b = sc.nextInt();
 
-            System.out.print("Il risultato della somma e': " + somma(a,b));
+            System.out.print("Il risultato della somma e': " + somma(a,b)+"\n");
+            System.out.printf("a:%d b:%d %n",a,b); //formattazione con printf
 
         } else if (operazione.equals("sottrazione")){
 
@@ -60,8 +61,8 @@ public class MethodsCalculator {
 
     }
 
-    public static int somma(int a,int b){
-        int res = a+b;
+    public static int somma(int a ,int b){
+        int res = a + b;
         return res;
         //oppure return a+b;
     }
@@ -80,5 +81,5 @@ public class MethodsCalculator {
         float res = a/b;
         return res;
     }
-
+    
 }
