@@ -49,5 +49,6 @@ public class RandCycle {
         }
 
         scanner.close();
+
     }
 }
