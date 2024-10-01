@@ -19,6 +19,7 @@ public class MethodsCalculator {
             int b = sc.nextInt();
 
             System.out.print("Il risultato della somma e': " + somma(a,b));
+
         } else if (operazione.equals("sottrazione")){
 
             System.out.print("Inserire primo numero da sottrarre: ");
@@ -28,6 +29,7 @@ public class MethodsCalculator {
             int b = sc.nextInt();
 
             System.out.print("Il risultato della sottrazione e': " + sottrazione(a,b));
+
         } else if (operazione.equals("moltiplicazione")){
 
             System.out.print("Inserire primo numero da moltiplicare: ");
@@ -37,6 +39,7 @@ public class MethodsCalculator {
             int b = sc.nextInt();
 
             System.out.print("Il risultato della moltiplicazione e': " + moltiplicazione(a,b));
+
         } else if (operazione.equals("divisione")){
 
             System.out.print("Inserire primo numero da dividere: ");
@@ -55,6 +58,7 @@ public class MethodsCalculator {
     public static int somma(int a,int b){
         int res = a+b;
         return res;
+        //oppure return a+b;
     }
 
     public static int sottrazione(int a,int b){
