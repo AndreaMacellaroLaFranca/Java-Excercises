@@ -26,9 +26,8 @@ public class Palyndrome {
     }
 
     public static boolean isPalyndrome (String word){
-        int wordLength = word.length();
         String wordRev = "";
-        for (int i = wordLength-1; i >= 0; i--) {
+        for (int i = word.length()-1; i >= 0; i--) {
             wordRev += word.charAt(i);
         }
         if (wordRev.equalsIgnoreCase(word)){
