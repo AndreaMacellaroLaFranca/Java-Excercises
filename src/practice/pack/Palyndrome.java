@@ -33,7 +33,7 @@ public class Palyndrome {
         }
         if (wordRev.equalsIgnoreCase(word)){
             return true;
-        }else{
+        } else{
             return false;
         }
     }
