@@ -19,12 +19,12 @@ public class ArrayString {
             vettore[i]=sc.nextLine();
         }
 
-        System.out.println(Arrays.toString(vettore));
-
         System.out.print("Inserire parola da controllare: ");
         String check = sc.nextLine();
 
-        System.out.print("La parola "+check+" e' presente "+wordCheck(vettore, check)+" volte.");
+        System.out.print("La parola '"+check+"' è presente "+wordCheck(vettore, check)+" volte.");
+
+        sc.close();
 
     }
     public static int wordCheck (String[] vettore, String check){
