@@ -6,17 +6,12 @@ public class Termostat {
 
     private double[] temps;
 
-    public double[] getTemps() {
-        return temps;
-    }
-
     public Termostat(double[] temps){
         this.temps = temps;
     }
 
     public String tempsToString(){
-        String tempsToString = Arrays.toString(getTemps());
-        return String.format("Le temperature degli utlimi 10 giorni sono: %s %nLa media delle temperature e': %f %nLa temperatura massima e': %f %nLa minima e': %f %nNumer giorni sopra la media: %d", tempsToString,calculateAverageTemp(),findHighestTemp(),findLowestTemp(),daysAboveAverage());
+        return String.format("Le temperature degli utlimi 10 giorni sono: %s %nLa media delle temperature e': %f %nLa temperatura massima e': %f %nLa minima e': %f %nNumer giorni sopra la media: %d",Arrays.toString(temps),calculateAverageTemp(),findHighestTemp(),findLowestTemp(),daysAboveAverage());
     }
 
     public double calculateAverageTemp(){
