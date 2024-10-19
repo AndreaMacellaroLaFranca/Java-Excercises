@@ -1,6 +1,5 @@
-package practice.pack;
+package practice.pack.exercises;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class ArrayString {

@@ -1,4 +1,4 @@
-package practice.pack;
+package practice.pack.exercises;
 
 public class RomboAsterischi {
     public static void main(String[] args) {
