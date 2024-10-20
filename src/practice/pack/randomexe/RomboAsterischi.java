@@ -1,4 +1,4 @@
-package practice.pack.exercises;
+package practice.pack.randomexe;
 
 public class RomboAsterischi {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package library;
+package practice.pack.library;
 
 public class Book {
     private String title, author, isbn;

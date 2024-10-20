@@ -1,4 +1,4 @@
-package library;
+package practice.pack.library;
 
 public class JavaLibraryShop {
     public static void main(String[] args) {

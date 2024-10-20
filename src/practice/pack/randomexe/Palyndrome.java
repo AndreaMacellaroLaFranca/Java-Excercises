@@ -1,4 +1,4 @@
-package practice.pack.exercises;
+package practice.pack.randomexe;
 
 import java.util.Scanner;
 
