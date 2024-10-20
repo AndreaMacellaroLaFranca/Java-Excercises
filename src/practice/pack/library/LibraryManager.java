@@ -36,7 +36,8 @@ public class LibraryManager implements Library {
             if (book.getAuthor().equalsIgnoreCase(author)){
                 System.out.println(book.toString());
             }
-        }return listBooks;
+        }
+        return listBooks;
     }
 
 }
