@@ -24,6 +24,7 @@ public class LibraryManager implements Library {
 
     @Override
     public List<Book> listBooks() {
+        System.out.println("\n--BOOK LIBRARY--\n");
         for(Book book : listBooks){
             System.out.println(book.toString());
         }
@@ -35,6 +36,9 @@ public class LibraryManager implements Library {
         for (Book book : listBooks){
             if (book.getAuthor().equalsIgnoreCase(author)){
                 System.out.println(book.toString());
+            } else {
+                System.out.println("Author: "+author+" not found.");
+                break;
             }
         }
         return listBooks;
